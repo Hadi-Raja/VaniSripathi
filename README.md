@@ -1,2 +1,0 @@
-# VaniSripathi
-VaniSripathi

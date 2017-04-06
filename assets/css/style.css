@@ -28,8 +28,13 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
 body {
-    background:url('../images/bg2.jpg') no-repeat 62% 90%;
+    background:url('../images/bg2.jpg') repeat-y 62% 90%;
+
     background-size: cover;
+    webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }

@@ -17,10 +17,13 @@
     table ,tr,td{
         color:white!important;
     }
+    body{
+        background-repeat: repeat-y;
+    }
 </style>
 </head>
 
-<body style="height:750px">
+<body >
 <!-- Bread crumbs to return to site -->
     <div class="col-md-2">
     <ol class="breadcrumb">
@@ -36,7 +39,7 @@
 <!--//header-->
 <?php// print_r($data); ?>
 <div class="container">
-<table class="table table-border"  >
+<table class="table table-border table-bordered"  >
     <tr>
  <th>Service Name  </th>
  <th> Organization </th>
@@ -47,7 +50,7 @@
     <?php 
     // the data array from the view and loop it through in case of result
  foreach($data as $d){ ?>
-<tr> 
+    <tr style="text-align: left"> 
  <td><?php		echo  $d->service_name ;?></td>
     <td><?php		echo  $d->organization ;?></td>
     <td><?php		echo  $d->description ;?></td>

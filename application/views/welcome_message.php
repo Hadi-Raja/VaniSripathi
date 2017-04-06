@@ -43,7 +43,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<form action="index.php/welcome/view" method="post">
                     <div id="locationField">
 		
-                 <input id="autocomplete" class="user" placeholder="Enter your address" style="width:300px;" name="address" onFocus="geolocate()" type="text"></input>
+                 <input id="autocomplete" required class="user" placeholder="Enter your address" style="width:300px;" name="address" onFocus="geolocate()" type="text"></input>
 		  
                 </div>
 
